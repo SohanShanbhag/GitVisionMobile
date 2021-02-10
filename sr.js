@@ -183,7 +183,7 @@ function draw(){
 
 function touchStarted(){
   if(mouseX === mc.x && mouseY === mc.y){
-    background("yellow")
+    background("yellow");
     listen();
   }
 }
